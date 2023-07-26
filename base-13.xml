@@ -8,7 +8,7 @@
   <!-- Change in AOSP projects -->
 
   <!-- TODO: add new branch in "capyloon" from "capyloon-gsi"   -->
-  <project name="platform_build" path="build/make" remote="capyloon" revision="gonk_android-13.0.0_r24">
+  <project name="platform_build" path="build/make" remote="capyloon" revision="gonk_android-13.0.0_r50">
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -17,14 +17,14 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="platform_build_soong" path="build/soong" remote="capyloon" revision="gonk_android-13.0.0_r24">
+  <project name="platform_build_soong" path="build/soong" remote="capyloon" revision="gonk_android-13.0.0_r50">
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
-  <project name="platform_system_core" path="system/core" remote="capyloon" revision="gonk_android-13.0.0_r24"/>
-  <project name="platform_system_vold" path="system/vold" remote="capyloon" revision="gonk_android-13.0.0_r24"/>
-  <project name="platform_system_connectivity_wificond" path="system/connectivity/wificond" remote="capyloon" revision="gonk_android-13.0.0_r24"/>
-  <project name="platform_system_sepolicy" path="system/sepolicy" remote="capyloon" revision="gonk_android-13.0.0_r24"/>
+  <project name="platform_system_core" path="system/core" remote="capyloon" revision="gonk_android-13.0.0_r50"/>
+  <project name="platform_system_vold" path="system/vold" remote="capyloon" revision="gonk_android-13.0.0_r50"/>
+  <project name="platform_system_connectivity_wificond" path="system/connectivity/wificond" remote="capyloon" revision="gonk_android-13.0.0_r50"/>
+  <project name="platform_system_sepolicy" path="system/sepolicy" remote="capyloon" revision="gonk_android-13.0.0_r50"/>
 
   <!-- add Capyloon and B2G repos -->
   <project groups="capyloon" name="librecovery" path="librecovery" remote="capyloon" revision="master"/>
