@@ -2,7 +2,7 @@
 <manifest>
 
   <remote fetch="https://android.googlesource.com" name="aosp"/>
-  <default revision="refs/tags/android-13.0.0_r24" remote="aosp" sync-j="4" />
+  <default revision="refs/tags/android-13.0.0_r50" remote="aosp" sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp"  />
   <contactinfo bugurl="go/repo-bug" />
@@ -397,6 +397,7 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk" />
   <project path="external/rmi4utils" name="platform/external/rmi4utils" groups="pdk" />
   <project path="external/robolectric-shadows" name="platform/external/robolectric-shadows" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk" />
   <project path="external/rootdev" name="platform/external/rootdev" groups="pdk" />
   <project path="external/Reactive-Extensions/RxCpp" name="platform/external/Reactive-Extensions/RxCpp" groups="pdk" />
