@@ -35,7 +35,7 @@
   <project groups="capyloon" name="gecko-b2g" path="gecko" remote="capyloon" revision="aosp-13"/>
   <project groups="capyloon" name="gonk-misc" path="gonk-misc" remote="capyloon" revision="aosp-13"/>
   <project groups="capyloon" name="nutria" path="nutria" remote="capyloon" revision="main"/>
-  <project groups="capyloon" name="iroh" path="iroh" remote="capyloon" revision="capyloon"/>
+  <project groups="capyloon" name="beetle" path="ipfsd" remote="capyloon" revision="capyloon"/>
   <project groups="capyloon" name="gonk-binder" path="gonk-misc/gonk-binder" remote="capyloon" revision="aosp-13"/>
 
 </manifest>
