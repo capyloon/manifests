@@ -38,4 +38,8 @@
   <project groups="capyloon" name="beetle" path="ipfsd" remote="capyloon" revision="capyloon"/>
   <project groups="capyloon" name="gonk-binder" path="gonk-misc/gonk-binder" remote="capyloon" revision="aosp-13"/>
   <project groups="capyloon" name="moztt" path="external/moztt" remote="capyloon" revision="main"/>
+
+  <!-- AOSP deprecated projects that are still necessary for B2G -->
+  <project path="external/dhcpcd-6.8.2" name="platform/external/dhcpcd-6.8.2" remote="aosp" revision="refs/tags/android-9.0.0_r61"/>
+
 </manifest>
