@@ -32,7 +32,7 @@
   <project groups="capyloon" name="libsignal-protocol-c"
            path="gonk-misc/api-daemon/support/libsignal-sys/libsignal-protocol-c"
            remote="capyloon" revision="3a83a4f4ed2302ff6e68ab569c88793b50c22d28"/>
-  <project groups="capyloon" name="gecko-b2g" path="gecko" remote="capyloon" revision="wifi-wip"/>
+  <project groups="capyloon" name="gecko-b2g" path="gecko" remote="capyloon" revision="aosp-13"/>
   <project groups="capyloon" name="gonk-misc" path="gonk-misc" remote="capyloon" revision="aosp-13"/>
   <project groups="capyloon" name="nutria" path="nutria" remote="capyloon" revision="main"/>
   <project groups="capyloon" name="beetle" path="ipfsd" remote="capyloon" revision="capyloon"/>
